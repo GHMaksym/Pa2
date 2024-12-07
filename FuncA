@@ -1,0 +1,18 @@
+// FuncA.h
+#ifndef FUNCA_H
+#define FUNCA_H
+
+/**
+ * Клас FuncA обчислює значення тригонометричної функції.
+ */
+class FuncA {
+public:
+    /**
+     * Обчислює суму перших n елементів ряду.
+     * @param n Кількість елементів.
+     * @return Значення суми.
+     */
+    double calculate(int n);
+};
+
+#endif
